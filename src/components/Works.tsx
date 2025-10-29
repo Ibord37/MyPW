@@ -45,7 +45,7 @@ const Works = () => {
             {loading ? (
                 <p className="lead">Loading...</p>
             ) : (
-                <div className="row d-flex justify-content-center mt-4 g-4 mb-5">
+                <div className="row d-flex justify-content-start mx-5 mt-4 g-4 mb-5">
                     {projects.map((project, idx) => (
                         <div className="col-6 col-md-6 col-lg-3" key={idx}>
                             <div className="card bg-dark text-white h-100 border-0 shadow-lg">
