@@ -61,7 +61,7 @@ const Works = () => {
 
                                     <div className="mt-auto"> 
                                         <a href={project.html_url} target="_blank" rel="noopener noreferrer" className="btn btn-info text-white fw-bold w-100">
-                                            View on GitHub
+                                            <i className="fab fa-github mx-1"></i>View On Github
                                         </a>
                                     </div>
                                 </div>
