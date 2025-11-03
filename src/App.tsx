@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="w-100 min-vh-100 vh-100 text-light">
       <NavBar />
-      <div className="pt-5 w-100">
+      <div className="w-100">
         <PackedComp />
       </div>
     </div>

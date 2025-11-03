@@ -21,7 +21,7 @@ const Skills = () => {
             <p className="text-light fs-4 mt-3">Technologies & Programming Languages I have used and familiar with:</p>
 
             <div className="row d-flex justify-content-center mt-4">
-                <div className="col-4">
+                <div className="col-10 col-md-4">
                     {journeyCards.slice(0, Math.ceil(journeyCards.length / 2)).map(journey => (
                         <div key={journey.id} className="card p-0 bg-dark text-white my-3">
                             <div className="card-body text-start">
@@ -34,7 +34,7 @@ const Skills = () => {
                         </div>
                     ))}
                 </div>
-                <div className="col-4 ms-4">
+                <div className="col-10 col-md-4 ms-4">
                     {journeyCards.slice(Math.ceil(journeyCards.length / 2)).map(journey => (
                         <div key={journey.id} className="card p-0 bg-dark text-white my-3">
                             <div className="card-body text-start">

@@ -6,7 +6,7 @@ const Contact = () => {
             <p className="text-light fs-4 mt-3">Let's get connected!</p>
 
             <div className="row d-flex justify-content-center">
-                <div className="col-4">
+                <div className="col-10 col-md-4">
                     <div className="fs-5 d-flex align-items-center">
                         <a className="mx-auto text-decoration-none text-white" href="https://www.linkedin.com/in/vincent-yu-4048b7363/"><i className="fab fa-linkedin"></i>LinkedIn</a>
                     </div>

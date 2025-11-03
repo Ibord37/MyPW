@@ -47,7 +47,7 @@ const Works = () => {
             ) : (
                 <div className="row d-flex justify-content-start mx-5 mt-4 g-4 mb-5">
                     {projects.map((project, idx) => (
-                        <div className="col-6 col-md-6 col-lg-3" key={idx}>
+                        <div className="col-12 col-md-6 col-lg-3" key={idx}>
                             <div className="card bg-dark text-white h-100 border-0 shadow-lg">
                                 <div className="card-body p-4 d-flex flex-column">
                                     <div className="d-flex justify-content-between align-items-baseline mb-3">

@@ -12,7 +12,7 @@ const NavBar = () => {
     ];
 
     return (
-        <header className="bg-dark fixed-top shadow">
+        <header className="bg-dark shadow">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
                 <a className="navbar-brand d-flex align-items-center" href="#">
                     <span className="fs-4 ps-3 fw-bold" style={{ color: "var(--fav-color)" }}>My Page</span>
