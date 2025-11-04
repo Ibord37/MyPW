@@ -16,7 +16,7 @@ const Works = () => {
     const GetProjects = async () => { // manual filter as idk why does the parameter fork=false not working
         try {
             setLoading(true);
-            const res = await axios.get<TypeProject[]>("https://api.github.com/users/ibord37/repos?per_page=50");
+            const res = await axios.get<TypeProject[]>("https://api.github.com/users/vydev37/repos?per_page=50");
             if (!res.data) {
                 console.log("Failed to GET projects.");
                 return;
