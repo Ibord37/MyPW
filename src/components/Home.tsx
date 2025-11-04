@@ -9,7 +9,7 @@ const Home = () => {
                 <h2 className="h3 fw-semibold">Hi, I'm <span style={{ color: "var(--fav-color)" }}>Vincent</span>.</h2>
                 <div className="row d-flex fs-5 mt-5 justify-content-center">
                     <div className="col-10 col-md-5">
-                        I am a full-stack developer who usually uses TypeScript for both Frontend and Backend.
+                        I am a full-stack developer who usually uses TypeScript for both Frontend and Backend Development.
                     </div>
                 </div>
             </div>
