@@ -13,10 +13,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-5">
-                <a className="button text-white rounded-2 border-0 outline-0 text-decoration-none py-2 px-4 fs-5 my-4 mx-3 fw-bold" 
+            <div className="col-12 col-md-12 d-flex justify-content-center mt-5">
+                <a className="button text-white rounded-2 border-0 outline-0 text-decoration-none fs-6 py-2 px-4 fs-5 my-4 mx-3 fw-bold" 
                     style={{ background: "var(--fav-color)" }} href={CVSaya} download="Vincent's CV" target="_blank" rel="noreferrer" ><i className="fas fa-download"></i>Download CV</a>
-                <a className="button text-white bg-transparent border-2 rounded-2 outline-0 text-decoration-none py-2 px-4 fs-5 my-4 mx-3 fw-bold"
+                <a className="button text-white bg-transparent border-2 rounded-2 outline-0 fs-6 text-decoration-none py-2 px-4 fs-5 my-4 mx-3 fw-bold"
                     style={{ borderColor: "var(--fav-color)", borderStyle: "solid" }} href="#about">About me</a>
             </div>
         </section>
